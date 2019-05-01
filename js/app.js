@@ -10,7 +10,8 @@ function IndexController (settings) {
 		addListenerInputChange();
 		addListenerSelect();
 		addListenerCheckboxSelectAll();
-		addListenerOblastSelectAll();
+        addListenerOblastSelectAll();
+        addListenerCollapse();
 	}
 
 	function addListenerInputChange () {
@@ -38,14 +39,24 @@ function IndexController (settings) {
 		});
 	}
 
-	function addListenerOblastSelectAll () {
+    function addListenerOblastSelectAll () {
         $(document).on('change', '.oblast-group h4 input[type=checkbox]', function (e) {
-        	var checked = $(this).is(':checked');
-        	var el = $(this).parents('.oblast-group');
-        	el.find('.oblast-group-content .existing-row input[type=checkbox]').prop('checked', checked);
-        	setYears(el.find('.oblast-group-content .years'), checked);
-		});
-	}
+            var checked = $(this).is(':checked');
+            var el = $(this).parents('.oblast-group');
+            el.find('.oblast-group-content .existing-row input[type=checkbox]').prop('checked', checked);
+            setYears(el.find('.oblast-group-content .years'), checked);
+        });
+    }
+
+    function addListenerCollapse () {
+        $(document).on('click', '.card-header .collapse img', function (e) {
+            var cls = $(this).attr('class');
+            var el = $(this).parents('.card');
+            el.removeClass(cls);
+            el.addClass(cls == 'closed' ? 'opened' : 'closed');
+            preventDefault(e);
+        });
+    }
 
 	function setYears (years, checked) {
     	years.each(function (i, year) {
@@ -125,5 +136,10 @@ function IndexController (settings) {
 		});
 		return total;
 	}
+
+    function preventDefault (e) {
+        e.preventDefault();
+        return false;
+    }
 
 }

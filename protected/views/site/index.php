@@ -47,10 +47,14 @@ $this->pageTitle=Yii::app()->name;
 
 <?php foreach ($countries as $country): ?>
 	<?php if (count($country->oblasts) == 0) continue; ?>
-	<div class="card country country-<?php echo $country->id; ?>" data-id="<?php echo $country->id; ?>" data-title="<?php echo $country->name; ?>">
+	<div class="card country closed country-<?php echo $country->id; ?>" data-id="<?php echo $country->id; ?>" data-title="<?php echo $country->name; ?>">
 		<h3 class="card-header">
 			<input type="checkbox" title="<?php echo Yii::t('app', 'Select All') ?>" />
 			<?php echo $country->name; ?>
+			<a href="#" class="collapse">
+				<img class="closed" src="<?php echo Yii::app()->getBaseUrl(); ?>/images/closed.svg" />
+				<img class="opened" src="<?php echo Yii::app()->getBaseUrl(); ?>/images/opened.svg" />
+			</a>
 			<span class="right"></span>
 		</h3>
 		<div class="card-content">

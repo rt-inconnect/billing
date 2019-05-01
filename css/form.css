@@ -181,6 +181,25 @@ div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
 	color: #fff;
 	background-color: #2196F3;
 }
+.card-header .collapse {
+    float: right;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+.card-header img {
+    width: 25px;
+    height: 25px;
+    display: none;
+}
+.card.closed .card-content {
+    display: none;
+}
+.card.closed .card-header img.closed {
+    display: block;
+}
+.card.opened .card-header img.opened {
+    display: block;
+}
 .card-content {
 	padding: 10px;
     display: flex;
