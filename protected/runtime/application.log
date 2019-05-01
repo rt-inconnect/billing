@@ -1,0 +1,1800 @@
+2019/03/26 18:16:02 [error] [exception.CException] CException: Property "CAttributeCollection.defaultLanguage" is not defined. in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\collections\CAttributeCollection.php(51): CComponent->__get('defaultLanguage')
+#1 D:\xampp\htdocs\billing\protected\components\Controller.php(26): CAttributeCollection->__get('defaultLanguage')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(281): Controller->init()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/billing/index.php?r=site/login
+HTTP_REFERER=http://localhost/billing/index.php?r=site/contact
+---
+2019/03/26 18:16:03 [error] [exception.CException] CException: Property "CAttributeCollection.defaultLanguage" is not defined. in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\collections\CAttributeCollection.php(51): CComponent->__get('defaultLanguage')
+#1 D:\xampp\htdocs\billing\protected\components\Controller.php(26): CAttributeCollection->__get('defaultLanguage')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(281): Controller->init()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/billing/index.php?r=site/login
+HTTP_REFERER=http://localhost/billing/index.php?r=site/contact
+---
+2019/03/26 18:17:43 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "пшш". in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('\xD0\xBF\xD1\x88\xD1\x88')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/billing/index.php?r=%D0%BF%D1%88%D1%88
+---
+2019/03/26 18:34:23 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\xampp\htdocs\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/billing/index.php/gii/model/index
+HTTP_REFERER=http://localhost/billing/index.php/gii
+---
+2019/03/26 18:34:26 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\xampp\htdocs\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/billing/index.php/gii/model/index
+HTTP_REFERER=http://localhost/billing/index.php/gii
+---
+2019/03/26 18:59:30 [error] [exception.CHttpException.404] CHttpException: Системе не удалось найти запрашиваемое действие "UZB". in D:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('UZB')
+#1 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('UZB')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/UZB')
+#3 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/billing/index.php/country/UZB
+HTTP_REFERER=http://localhost/billing/index.php/country/create
+---
+2019/03/26 19:00:23 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in D:\xampp\htdocs\billing\protected\controllers\CountryController.php:157
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\controllers\CountryController.php(55): CountryController->loadModel('admin')
+#1 [internal function]: CountryController->actionView('admin')
+#2 D:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CountryController), Object(ReflectionMethod), Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/view')
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/billing/index.php/country/admin
+HTTP_REFERER=http://localhost/billing/index.php/country/UZB
+---
+2019/03/26 19:01:04 [error] [exception.CHttpException.404] CHttpException: Системе не удалось найти запрашиваемое действие "UZB". in D:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('UZB')
+#1 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('UZB')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/UZB')
+#3 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/billing/index.php/country/UZB
+HTTP_REFERER=http://localhost/billing/index.php/country/create
+---
+2019/03/26 19:01:39 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in D:\xampp\htdocs\billing\protected\controllers\CountryController.php:157
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\controllers\CountryController.php(55): CountryController->loadModel('admin')
+#1 [internal function]: CountryController->actionView('admin')
+#2 D:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CountryController), Object(ReflectionMethod), Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/view')
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/billing/index.php/country/admin
+HTTP_REFERER=http://localhost/billing/index.php/country/UZB
+---
+2019/03/26 19:01:46 [error] [exception.CHttpException.404] CHttpException: Системе не удалось найти запрашиваемое действие "UZB". in D:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('UZB')
+#1 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('UZB')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/UZB')
+#3 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/billing/index.php/country/UZB
+HTTP_REFERER=http://localhost/billing/index.php/country/admin
+---
+2019/03/26 19:01:49 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in D:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/update/...')
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/country/update/UZB
+HTTP_REFERER=http://localhost/billing/index.php/country/admin
+---
+2019/03/26 19:01:51 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in D:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/update/...')
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/country/update/UZB
+HTTP_REFERER=http://localhost/billing/index.php/country/admin
+---
+2019/03/26 19:07:02 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array' (T_ARRAY), expecting ')' in D:\xampp\htdocs\billing\protected\views\layouts\main.php:36
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#3 D:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#4 D:\xampp\htdocs\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 D:\xampp\htdocs\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 D:\xampp\htdocs\billing\protected\views\layouts\column2.php(22): CBaseController->endContent()
+#7 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#10 D:\xampp\htdocs\billing\protected\controllers\CountryController.php(142): CController->render('admin', Array)
+#11 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CountryController->actionAdmin()
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/admin')
+#22 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/billing/index.php/country/admin
+---
+2019/03/26 19:07:12 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array' (T_ARRAY), expecting ')' in D:\xampp\htdocs\billing\protected\views\layouts\main.php:37
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#3 D:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#4 D:\xampp\htdocs\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 D:\xampp\htdocs\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 D:\xampp\htdocs\billing\protected\views\layouts\column2.php(22): CBaseController->endContent()
+#7 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#10 D:\xampp\htdocs\billing\protected\controllers\CountryController.php(142): CController->render('admin', Array)
+#11 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CountryController->actionAdmin()
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/admin')
+#22 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/billing/index.php/country/admin
+---
+2019/03/26 19:11:11 [error] [exception.ParseError] ParseError: syntax error, unexpected ')', expecting ']' in D:\xampp\htdocs\billing\protected\views\layouts\main.php:37
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#3 D:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#4 D:\xampp\htdocs\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 D:\xampp\htdocs\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 D:\xampp\htdocs\billing\protected\views\layouts\column2.php(22): CBaseController->endContent()
+#7 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#10 D:\xampp\htdocs\billing\protected\controllers\CountryController.php(142): CController->render('admin', Array)
+#11 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CountryController->actionAdmin()
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/admin')
+#22 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/billing/index.php/country/admin
+---
+2019/03/26 19:20:09 [error] [exception.ParseError] ParseError: syntax error, unexpected '<', expecting end of file in D:\xampp\htdocs\billing\protected\views\country\admin.php:17
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#3 D:\xampp\htdocs\billing\protected\controllers\CountryController.php(142): CController->render('admin', Array)
+#4 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CountryController->actionAdmin()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/admin')
+#15 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/billing/index.php/country/admin
+HTTP_REFERER=http://localhost/billing/index.php/indicator/admin
+---
+2019/03/26 19:25:56 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Узбек' for key 'PRIMARY'. Выполнявшийся SQL-запрос: INSERT INTO `country` (`id`, `name_ru`, `name_en`) VALUES (:yp0, :yp1, :yp2).
+in D:\xampp\htdocs\billing\protected\controllers\CountryController.php (73)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/26 19:25:56 [error] [exception.CDbException] CDbException: CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Узбек' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `country` (`id`, `name_ru`, `name_en`) VALUES (:yp0, :yp1, :yp2) in D:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 D:\xampp\htdocs\billing\protected\controllers\CountryController.php(73): CActiveRecord->save()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CountryController->actionCreate()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('country/create')
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/billing/index.php/country/create
+HTTP_REFERER=http://localhost/billing/index.php/country/create
+---
+2019/03/26 20:29:39 [error] [exception.CException] CException: Не определено свойство "Oblast.nameru". in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('nameru')
+#1 D:\xampp\htdocs\billing\protected\components\ActiveRecord.php(8): CActiveRecord->__get('nameru')
+#2 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1874): ActiveRecord->afterFind()
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1895): CActiveRecord->populateRecord(Array, true)
+#4 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1359): CActiveRecord->populateRecords(Array, true, NULL)
+#5 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(199): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 D:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#9 D:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#10 D:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CGridView->init()
+#11 D:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 D:\xampp\htdocs\billing\protected\views\oblast\admin.php(9): CBaseController->widget('zii.widgets.gri...', Array)
+#13 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#16 D:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#17 D:\xampp\htdocs\billing\protected\controllers\OblastController.php(142): CController->render('admin', Array)
+#18 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): OblastController->actionAdmin()
+#19 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#21 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#23 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#25 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#28 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oblast/admin')
+#29 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#30 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/billing/index.php/oblast/admin
+HTTP_REFERER=http://localhost/billing/index.php/oblast/admin
+---
+2019/03/26 20:33:11 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oblast/update')
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/oblast/update?language=en
+HTTP_REFERER=http://localhost/billing/index.php/oblast/update/1
+---
+2019/03/26 20:33:14 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oblast/update')
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/oblast/update?language=en
+HTTP_REFERER=http://localhost/billing/index.php/oblast/update/1
+---
+2019/03/26 20:33:26 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oblast/update')
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/oblast/update?language=en
+HTTP_REFERER=http://localhost/billing/index.php/oblast/update/1
+---
+2019/03/26 20:33:44 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in D:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oblast/update')
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/oblast/update?language=ru
+HTTP_REFERER=http://localhost/billing/index.php/oblast/update/1?language=en
+---
+2019/03/26 21:33:50 [error] [exception.CException] CException: В классе CActiveForm и его поведениях не найден метод или замыкание с именем "activeCheckBoxList". in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\views\site\index.php(28): CComponent->__call('activeCheckBoxL...', Array)
+#1 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#5 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(35): CController->render('index', Array)
+#6 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/indicator/admin
+---
+2019/03/26 21:36:47 [error] [exception.ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in D:\xampp\htdocs\billing\protected\views\site\index.php:29
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#3 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(35): CController->render('index', Array)
+#4 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/indicator/admin
+---
+2019/03/26 21:37:16 [error] [exception.ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in D:\xampp\htdocs\billing\protected\views\site\index.php:28
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#3 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(35): CController->render('index', Array)
+#4 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/indicator/admin
+---
+2019/03/26 22:26:45 [error] [exception.CException] CException: В классе Order и его поведениях не найден метод или замыкание с именем "save". in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(39): CComponent->__call('save', Array)
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#7 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/site/index
+---
+2019/03/27 07:50:07 [warning] [application] Не удалось присвоить небезопасный атрибут "oblasts" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:07 [warning] [application] Не удалось присвоить небезопасный атрибут "indicators" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:07 [warning] [application] Не удалось присвоить небезопасный атрибут "year_start" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:07 [warning] [application] Не удалось присвоить небезопасный атрибут "year_end" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:44 [warning] [application] Не удалось присвоить небезопасный атрибут "oblasts" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:44 [warning] [application] Не удалось присвоить небезопасный атрибут "indicators" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:44 [warning] [application] Не удалось присвоить небезопасный атрибут "year_start" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:44 [warning] [application] Не удалось присвоить небезопасный атрибут "year_end" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:47 [warning] [application] Не удалось присвоить небезопасный атрибут "oblasts" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:47 [warning] [application] Не удалось присвоить небезопасный атрибут "indicators" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:47 [warning] [application] Не удалось присвоить небезопасный атрибут "year_start" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/27 07:50:47 [warning] [application] Не удалось присвоить небезопасный атрибут "year_end" класса "Order".
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/28 09:42:13 [error] [exception.HTML2PDF_exception] <span style="color: #AA0000; font-weight: bold;">ERROR n°1</span><br>File : D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php<br>Line : 1251<br><br>The tag <b>&lt;SCRIPT&gt;</b> does not yet exist.<br><br>If you want to add it, you must create the methods <b>o_SCRIPT</b> (for opening) and <b>c_SCRIPT</b> (for closure) by following the model of existing tags.<br><br>If you create these methods, do not hesitate to send me an email to webmaster@html2pdf.fr to included them in the next version of HTML2PDF.
+REQUEST_URI=/billing/index.php/site/index?language=ru
+HTTP_REFERER=http://localhost/billing/index.php/site/index?language=ru
+---
+2019/03/28 09:43:29 [error] [php] Undefined variable: form (D:\xampp\htdocs\billing\protected\views\site\order.php:13)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(51): SiteController->renderPartial()
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index?language=ru
+in D:\xampp\htdocs\billing\protected\views\site\order.php (13)
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (51)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/28 09:43:45 [error] [php] A non-numeric value encountered (D:\xampp\htdocs\billing\protected\vendor\html2pdf\_tcpdf_5.0.002\tcpdf.php:7747)
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\vendor\html2pdf\_tcpdf_5.0.002\tcpdf.php(6042): HTML2PDF_myPdf->Close()
+#1 D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(374): HTML2PDF_myPdf->Output()
+#2 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(52): HTML2PDF->Output()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index?language=ru
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_tcpdf_5.0.002\tcpdf.php (7747)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_tcpdf_5.0.002\tcpdf.php (7910)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_tcpdf_5.0.002\tcpdf.php (2537)
+2019/03/28 09:45:06 [error] [php] A non-numeric value encountered (D:\xampp\htdocs\billing\protected\vendor\html2pdf\_tcpdf_5.0.002\tcpdf.php:7747)
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\vendor\html2pdf\_tcpdf_5.0.002\tcpdf.php(6042): HTML2PDF_myPdf->Close()
+#1 D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(374): HTML2PDF_myPdf->Output()
+#2 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(52): HTML2PDF->Output()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index?language=ru
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_tcpdf_5.0.002\tcpdf.php (7747)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_tcpdf_5.0.002\tcpdf.php (7910)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_tcpdf_5.0.002\tcpdf.php (2537)
+2019/03/28 09:50:48 [error] [php] Undefined variable: order (D:\xampp\htdocs\billing\protected\views\site\order.php:2)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(51): SiteController->renderPartial()
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index?language=ru
+in D:\xampp\htdocs\billing\protected\views\site\order.php (2)
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (51)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/28 10:07:00 [error] [exception.HTML2PDF_exception] <span style="color: #AA0000; font-weight: bold;">error: 0</span><br>file: D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\locale.class.php<br>line: 60<br><br>language code [ru] unknown. You can create the translation file [D:\xampp\htdocs\billing\protected\vendor\html2pdf/locale/ru.csv] and send it to the webmaster of html2pdf in order to integrate it into a future release
+REQUEST_URI=/billing/index.php/site/index?language=ru
+HTTP_REFERER=http://localhost/billing/index.php/site/index?language=ru
+---
+2019/03/28 10:07:10 [error] [exception.HTML2PDF_exception] <span style="color: #AA0000; font-weight: bold;">error: 0</span><br>file: D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\locale.class.php<br>line: 60<br><br>language code [1] unknown. You can create the translation file [D:\xampp\htdocs\billing\protected\vendor\html2pdf/locale/1.csv] and send it to the webmaster of html2pdf in order to integrate it into a future release
+REQUEST_URI=/billing/index.php/site/index?language=ru
+HTTP_REFERER=http://localhost/billing/index.php/site/index?language=ru
+---
+2019/03/28 10:11:42 [error] [php] html_entity_decode(): charset `CP-1251' not supported, assuming utf-8 (D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\parsingHtml.class.php:236)
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(407): HTML2PDF_parsingHtml->parse()
+#1 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(41): HTML2PDF->writeHTML()
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index?language=ru
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\parsingHtml.class.php (236)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\parsingHtml.class.php (177)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (407)
+2019/03/28 10:11:56 [error] [php] html_entity_decode(): charset `CP-1251' not supported, assuming utf-8 (D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\parsingHtml.class.php:236)
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(407): HTML2PDF_parsingHtml->parse()
+#1 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(41): HTML2PDF->writeHTML()
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index?language=ru
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\parsingHtml.class.php (236)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\parsingHtml.class.php (177)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (407)
+2019/03/28 10:12:03 [error] [php] html_entity_decode(): charset `cp-1251' not supported, assuming utf-8 (D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\parsingHtml.class.php:236)
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(407): HTML2PDF_parsingHtml->parse()
+#1 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(41): HTML2PDF->writeHTML()
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index?language=ru
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\parsingHtml.class.php (236)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\parsingHtml.class.php (177)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (407)
+2019/03/28 10:12:47 [error] [exception.HTML2PDF_exception] <span style="color: #AA0000; font-weight: bold;">error: 0</span><br>file: D:\xampp\htdocs\billing\protected\vendor\html2pdf\_class\locale.class.php<br>line: 60<br><br>language code [ru] unknown. You can create the translation file [D:\xampp\htdocs\billing\protected\vendor\html2pdf/locale/ru.csv] and send it to the webmaster of html2pdf in order to integrate it into a future release
+REQUEST_URI=/billing/index.php/site/index?language=ru
+HTTP_REFERER=http://localhost/billing/index.php/site/index?language=ru
+---
+2019/03/28 11:41:50 [error] [php] Invalid argument supplied for foreach() (D:\xampp\htdocs\billing\protected\models\Order.php:60)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#2 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(41): SiteController->renderPartial()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index?language=ru
+in D:\xampp\htdocs\billing\protected\models\Order.php (60)
+in D:\xampp\htdocs\billing\protected\views\site\order.php (3)
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (41)
+2019/03/28 11:58:31 [error] [exception.CException] CException: Не определено свойство "Order.attribute". in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\views\site\order.php(3): CComponent->__get('attribute')
+#1 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#4 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(41): CController->renderPartial('order', Array, true)
+#5 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/billing/index.php/site/index?language=ru
+HTTP_REFERER=http://localhost/billing/index.php/site/index?language=ru
+---
+2019/03/28 12:09:31 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CHtml::listData(), 2 passed in D:\xampp\htdocs\billing\protected\views\site\order.php on line 19 and at least 3 expected in D:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:2289
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\views\site\order.php(19): CHtml::listData(Array, 'name')
+#1 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#4 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(41): CController->renderPartial('order', Array, true)
+#5 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/billing/index.php/site/index?language=ru
+HTTP_REFERER=http://localhost/billing/index.php/site/index?language=ru
+---
+2019/03/28 12:33:19 [error] [exception.Error] Error: Call to undefined function calculate() in D:\xampp\htdocs\billing\protected\models\Order.php:99
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\views\site\order.php(1): Order->populate()
+#1 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#4 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(41): CController->renderPartial('order', Array, true)
+#5 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/billing/index.php/site/index?language=ru
+HTTP_REFERER=http://localhost/billing/index.php/site/index?language=ru
+---
+2019/03/28 12:37:59 [error] [php] Undefined offset: 3 (D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php:4957)
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(2685): HTML2PDF->_makeHTMLcode()
+#1 D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1255): HTML2PDF->_tag_open_DIV()
+#2 D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1226): HTML2PDF->_executeAction()
+#3 D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(408): HTML2PDF->_makeHTMLcode()
+#4 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(41): HTML2PDF->writeHTML()
+#5 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index?language=ru
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (4957)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (1255)
+in D:\xampp\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (1218)
+2019/03/29 06:38:22 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('settings/update')
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/settings/update?language=en
+HTTP_REFERER=http://localhost/billing/index.php/settings/update/CURRENCY
+---
+2019/03/29 07:21:25 [error] [php] include(Yexcel.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(224): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(393): createComponent()
+#2 D:\xampp\htdocs\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(35): CWebApplication->__get()
+#4 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/29 07:23:01 [error] [php] include(Yexcel.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(224): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(393): createComponent()
+#2 D:\xampp\htdocs\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(35): CWebApplication->__get()
+#4 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/29 07:24:25 [error] [php] include(Yexcel.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(224): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(393): createComponent()
+#2 D:\xampp\htdocs\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(35): CWebApplication->__get()
+#4 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\xampp\htdocs\billing\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\billing\index.php (13)
+2019/03/29 07:25:59 [error] [php] include(PHPExcel_Shared_ZipStreamWrapper.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\extensions\yexcel\Classes\PHPExcel\Autoloader.php(31): spl_autoload_call()
+#1 D:\xampp\htdocs\billing\protected\extensions\yexcel\Classes\PHPExcel\IOFactory.php(35): require()
+#2 D:\xampp\htdocs\billing\protected\extensions\yexcel\Yexcel.php(33): include()
+#3 D:\xampp\htdocs\yii\framework\YiiBase.php(328): require()
+#4 D:\xampp\htdocs\yii\framework\YiiBase.php(204): import()
+#5 D:\xampp\htdocs\yii\framework\base\CModule.php(393): createComponent()
+#6 D:\xampp\htdocs\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#7 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(35): CWebApplication->__get()
+#8 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\xampp\htdocs\billing\protected\extensions\yexcel\Classes\PHPExcel\Autoloader.php (31)
+in D:\xampp\htdocs\billing\protected\extensions\yexcel\Classes\PHPExcel\IOFactory.php (35)
+in D:\xampp\htdocs\billing\protected\extensions\yexcel\Yexcel.php (33)
+2019/03/29 07:26:54 [error] [exception.Exception] Exception: Could not open /billing/rayons.xlsx for reading! File does not exist. in D:\xampp\htdocs\billing\protected\extensions\yexcel\Classes\PHPExcel\Reader\Excel2007.php:235
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\extensions\yexcel\Classes\PHPExcel\IOFactory.php(268): PHPExcel_Reader_Excel2007->canRead('/billing/rayons...')
+#1 D:\xampp\htdocs\billing\protected\extensions\yexcel\Classes\PHPExcel\IOFactory.php(191): PHPExcel_IOFactory::createReaderForFile('/billing/rayons...')
+#2 D:\xampp\htdocs\billing\protected\extensions\yexcel\Yexcel.php(47): PHPExcel_IOFactory::load('/billing/rayons...')
+#3 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(35): Yexcel->readActiveSheet('/billing/rayons...')
+#4 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#10 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/settings/admin
+---
+2019/03/29 07:28:25 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function H::p(), 0 passed in D:\xampp\htdocs\billing\protected\controllers\SiteController.php on line 36 and exactly 1 expected in D:\xampp\htdocs\billing\protected\components\H.php:6
+Stack trace:
+#0 D:\xampp\htdocs\billing\protected\controllers\SiteController.php(36): H::p()
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#7 D:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\billing\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/settings/admin
+---
+2019/04/01 07:00:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/cawater/web/cawater-info.net/public_html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/cawater/web/cawater-info.net/public_html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/cawater/web/cawater-info.net/public_html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CApplication.php(459): CModule->getComponent('db')
+#4 /home/cawater/web/cawater-info.net/public_html/yii/framework/db/ar/CActiveRecord.php(639): CApplication->getDb()
+#5 /home/cawater/web/cawater-info.net/public_html/yii/framework/db/ar/CActiveRecord.php(672): CActiveRecord->getDbConnection()
+#6 /home/cawater/web/cawater-info.net/public_html/yii/framework/db/ar/CActiveRecord.php(1476): CActiveRecord->getCommandBuilder()
+#7 /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/SiteController.php(46): CActiveRecord->findAll()
+#8 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/cawater/web/cawater-info.net/public_html/billing/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/billing/
+---
+2019/04/01 07:08:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'billing'' in /home/cawater/web/cawater-info.net/public_html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/cawater/web/cawater-info.net/public_html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/cawater/web/cawater-info.net/public_html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CApplication.php(459): CModule->getComponent('db')
+#4 /home/cawater/web/cawater-info.net/public_html/yii/framework/db/ar/CActiveRecord.php(639): CApplication->getDb()
+#5 /home/cawater/web/cawater-info.net/public_html/yii/framework/db/ar/CActiveRecord.php(672): CActiveRecord->getDbConnection()
+#6 /home/cawater/web/cawater-info.net/public_html/yii/framework/db/ar/CActiveRecord.php(1476): CActiveRecord->getCommandBuilder()
+#7 /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/SiteController.php(46): CActiveRecord->findAll()
+#8 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/cawater/web/cawater-info.net/public_html/billing/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/billing/
+---
+2019/04/11 18:53:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/OblastController.php:157
+Stack trace:
+#0 /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/OblastController.php(55): OblastController->loadModel('501')
+#1 [internal function]: OblastController->actionView('501')
+#2 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(OblastController), Array)
+#3 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(OblastController), Object(ReflectionMethod), Array)
+#4 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('oblast/view')
+#14 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/cawater/web/cawater-info.net/public_html/billing/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/billing/index.php/oblast/view/501
+---
+2019/04/16 21:30:59 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Existings.name_ru".' in D:\XAMPP_1\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name_ru')
+#1 D:\XAMPP_1\htdocs\billing\protected\components\ActiveRecord.php(8): CActiveRecord->__get('name_ru')
+#2 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(1057): ActiveRecord->afterFind()
+#3 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveFinder.php(775): CActiveRecord->afterFindInternal()
+#4 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveFinder.php(167): CJoinElement->afterFind()
+#5 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(283): CActiveFinder->lazyFind(Object(Oblast))
+#6 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('existings')
+#7 D:\XAMPP_1\htdocs\billing\protected\views\oblast\_form.php(6): CActiveRecord->__get('existings')
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\XAMPP_1\\htdo...')
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\XAMPP_1\\htdo...', Array, true)
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\XAMPP_1\\htdo...', Array, true)
+#11 D:\XAMPP_1\htdocs\billing\protected\views\oblast\update.php(21): CController->renderPartial('_form', Array)
+#12 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\XAMPP_1\\htdo...')
+#13 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\XAMPP_1\\htdo...', Array, true)
+#14 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\XAMPP_1\\htdo...', Array, true)
+#15 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('update', Array, true)
+#16 D:\XAMPP_1\htdocs\billing\protected\controllers\OblastController.php(83): CController->render('update', Array)
+#17 [internal function]: OblastController->actionUpdate('12')
+#18 D:\XAMPP_1\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(OblastController), Array)
+#19 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(OblastController), Object(ReflectionMethod), Array)
+#20 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#22 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#23 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#24 D:\XAMPP_1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#26 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#27 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#29 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oblast/update')
+#30 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#31 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/billing/index.php/oblast/update/12
+HTTP_REFERER=http://localhost/billing/index.php/oblast/admin
+---
+2019/04/16 21:37:48 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'. Выполнявшийся SQL-запрос: INSERT INTO `oblast` (`id`, `id_country`, `name_ru`, `name_en`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OblastController.php (131)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OblastController.php (66)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/16 21:37:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `oblast` (`id`, `id_country`, `name_ru`, `name_en`) VALUES (:yp0, :yp1, :yp2, :yp3)' in D:\XAMPP_1\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(1082): CDbCommand->execute()
+#1 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\OblastController.php(131): CActiveRecord->save()
+#3 D:\XAMPP_1\htdocs\billing\protected\controllers\OblastController.php(66): OblastController->saveModel(Object(Oblast))
+#4 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): OblastController->actionCreate()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 D:\XAMPP_1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#14 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oblast/create')
+#15 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/billing/index.php/oblast/create
+HTTP_REFERER=http://localhost/billing/index.php/oblast/create
+---
+2019/04/16 21:56:13 [error] [php] Missing argument 3 for CHtml::listData(), called in D:\XAMPP_1\htdocs\billing\protected\views\oblast\_form.php on line 68 and defined (D:\XAMPP_1\htdocs\yii\framework\web\helpers\CHtml.php:2289)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): OblastController->renderInternal()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): OblastController->renderFile()
+#2 D:\XAMPP_1\htdocs\billing\protected\views\oblast\create.php(18): OblastController->renderPartial()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): OblastController->renderInternal()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): OblastController->renderFile()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(785): OblastController->renderPartial()
+#7 D:\XAMPP_1\htdocs\billing\protected\controllers\OblastController.php(69): OblastController->render()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): OblastController->actionCreate()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(134): OblastController->runAction()
+#11 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#13 D:\XAMPP_1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): OblastController->filterAccessControl()
+#14 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#15 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): OblastController->runActionWithFilters()
+#17 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): OblastController->run()
+#18 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/oblast/create
+in D:\XAMPP_1\htdocs\billing\protected\views\oblast\_form.php (68)
+in D:\XAMPP_1\htdocs\billing\protected\views\oblast\create.php (18)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OblastController.php (69)
+2019/04/16 22:38:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\XAMPP_1\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\XAMPP_1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oblast/update')
+#10 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/billing/index.php/oblast/update?language=en
+HTTP_REFERER=http://localhost/billing/index.php/oblast/update/12
+---
+2019/04/18 12:36:07 [error] [php] Missing argument 2 for CHtml::label(), called in D:\XAMPP_1\htdocs\billing\protected\views\site\index.php on line 58 and defined (D:\XAMPP_1\htdocs\yii\framework\web\helpers\CHtml.php:577)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#2 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#3 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(57): SiteController->render()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\views\site\index.php (58)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (57)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/18 12:50:13 [error] [php] Trying to get property of non-object (D:\XAMPP_1\htdocs\billing\protected\views\site\index.php:60)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(57): SiteController->render()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\views\site\index.php (60)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (57)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/18 13:44:08 [warning] [application] Не удалось присвоить небезопасный атрибут "email" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/18 13:44:08 [warning] [application] Не удалось присвоить небезопасный атрибут "year_start" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/18 13:44:08 [warning] [application] Не удалось присвоить небезопасный атрибут "year_end" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/18 13:44:09 [error] [php] Invalid argument supplied for foreach() (D:\XAMPP_1\htdocs\billing\protected\models\Order.php:51)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): SiteController->renderPartial()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\models\Order.php (51)
+in D:\XAMPP_1\htdocs\billing\protected\views\site\order.php (2)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (41)
+2019/04/18 13:44:11 [warning] [application] Не удалось присвоить небезопасный атрибут "email" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/18 13:44:11 [warning] [application] Не удалось присвоить небезопасный атрибут "year_start" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/18 13:44:11 [warning] [application] Не удалось присвоить небезопасный атрибут "year_end" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (38)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/18 13:44:11 [error] [php] Invalid argument supplied for foreach() (D:\XAMPP_1\htdocs\billing\protected\models\Order.php:51)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): SiteController->renderPartial()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\models\Order.php (51)
+in D:\XAMPP_1\htdocs\billing\protected\views\site\order.php (2)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (41)
+2019/04/18 13:58:09 [error] [php] Undefined offset: 2 (D:\XAMPP_1\htdocs\billing\protected\views\site\index.php:61)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(57): SiteController->render()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\views\site\index.php (61)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (57)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/18 13:59:37 [error] [php] Invalid argument supplied for foreach() (D:\XAMPP_1\htdocs\billing\protected\models\Order.php:51)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): SiteController->renderPartial()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\models\Order.php (51)
+in D:\XAMPP_1\htdocs\billing\protected\views\site\order.php (2)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (41)
+2019/04/18 14:04:48 [error] [php] Invalid argument supplied for foreach() (D:\XAMPP_1\htdocs\billing\protected\models\Order.php:51)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): SiteController->renderPartial()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\models\Order.php (51)
+in D:\XAMPP_1\htdocs\billing\protected\views\site\order.php (2)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (41)
+2019/04/18 14:11:02 [error] [php] Invalid argument supplied for foreach() (D:\XAMPP_1\htdocs\billing\protected\models\Order.php:51)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): SiteController->renderPartial()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\models\Order.php (51)
+in D:\XAMPP_1\htdocs\billing\protected\views\site\order.php (2)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (41)
+2019/04/18 14:32:41 [error] [php] Invalid argument supplied for foreach() (D:\XAMPP_1\htdocs\billing\protected\models\Order.php:140)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): SiteController->renderPartial()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\models\Order.php (140)
+in D:\XAMPP_1\htdocs\billing\protected\views\site\order.php (4)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (41)
+2019/04/18 15:07:52 [error] [php] Undefined variable: total (D:\XAMPP_1\htdocs\billing\protected\views\site\order.php:63)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): SiteController->renderPartial()
+#2 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\views\site\order.php (63)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (41)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/04/18 15:09:15 [error] [php] Undefined offset: 3 (D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php:2133)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1218): HTML2PDF->_executeAction()
+#1 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(2685): HTML2PDF->_makeHTMLcode()
+#2 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1255): HTML2PDF->_tag_open_DIV()
+#3 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1226): HTML2PDF->_executeAction()
+#4 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(408): HTML2PDF->_makeHTMLcode()
+#5 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): HTML2PDF->writeHTML()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (2133)
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (4948)
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (1255)
+2019/04/18 15:09:46 [error] [php] Undefined offset: 3 (D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php:2133)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1218): HTML2PDF->_executeAction()
+#1 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(2685): HTML2PDF->_makeHTMLcode()
+#2 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1255): HTML2PDF->_tag_open_DIV()
+#3 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1226): HTML2PDF->_executeAction()
+#4 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(408): HTML2PDF->_makeHTMLcode()
+#5 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): HTML2PDF->writeHTML()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (2133)
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (4948)
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (1255)
+2019/04/18 15:09:47 [error] [php] Undefined offset: 3 (D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php:2133)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1218): HTML2PDF->_executeAction()
+#1 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(2685): HTML2PDF->_makeHTMLcode()
+#2 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1255): HTML2PDF->_tag_open_DIV()
+#3 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1226): HTML2PDF->_executeAction()
+#4 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(408): HTML2PDF->_makeHTMLcode()
+#5 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): HTML2PDF->writeHTML()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (2133)
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (4948)
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (1255)
+2019/04/18 15:09:51 [error] [php] Undefined offset: 3 (D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php:2133)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1218): HTML2PDF->_executeAction()
+#1 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(2685): HTML2PDF->_makeHTMLcode()
+#2 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1255): HTML2PDF->_tag_open_DIV()
+#3 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1226): HTML2PDF->_executeAction()
+#4 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(408): HTML2PDF->_makeHTMLcode()
+#5 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): HTML2PDF->writeHTML()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (2133)
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (4948)
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (1255)
+2019/04/18 15:14:22 [error] [php] Undefined offset: -1 (D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php:1060)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1226): HTML2PDF->_executeAction()
+#1 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(5440): HTML2PDF->_makeHTMLcode()
+#2 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1255): HTML2PDF->_tag_open_TD()
+#3 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1212): HTML2PDF->_executeAction()
+#4 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(2685): HTML2PDF->_makeHTMLcode()
+#5 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1255): HTML2PDF->_tag_open_DIV()
+#6 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(1226): HTML2PDF->_executeAction()
+#7 D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php(408): HTML2PDF->_makeHTMLcode()
+#8 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): HTML2PDF->writeHTML()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (1060)
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (4465)
+in D:\XAMPP_1\htdocs\billing\protected\vendor\html2pdf\html2pdf.class.php (1255)
+2019/04/23 09:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/IndicatorController.php:157
+Stack trace:
+#0 /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/IndicatorController.php(113): IndicatorController->loadModel('irr')
+#1 [internal function]: IndicatorController->actionDelete('irr')
+#2 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(IndicatorController), Array)
+#3 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(IndicatorController), Object(ReflectionMethod), Array)
+#4 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(1119): CFilterChain->run()
+#7 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#16 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('indicator/delet...')
+#17 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /home/cawater/web/cawater-info.net/public_html/billing/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/billing/index.php/indicator/delete/irr?ajax=indicator-grid
+HTTP_REFERER=http://cawater-info.net/billing/index.php/indicator/admin
+---
+2019/04/24 05:15:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/IndicatorController.php:157
+Stack trace:
+#0 /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/IndicatorController.php(89): IndicatorController->loadModel('ANONS')
+#1 [internal function]: IndicatorController->actionUpdate('ANONS')
+#2 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(IndicatorController), Array)
+#3 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(IndicatorController), Object(ReflectionMethod), Array)
+#4 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#13 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('indicator/updat...')
+#14 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/cawater/web/cawater-info.net/public_html/billing/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/billing/index.php/indicator/update/ANONS
+HTTP_REFERER=http://cawater-info.net/billing/index.php/indicator/update/ANONS
+---
+2019/04/24 05:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/IndicatorController.php:157
+Stack trace:
+#0 /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/IndicatorController.php(89): IndicatorController->loadModel('ANONS')
+#1 [internal function]: IndicatorController->actionUpdate('ANONS')
+#2 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(IndicatorController), Array)
+#3 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(IndicatorController), Object(ReflectionMethod), Array)
+#4 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#13 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('indicator/updat...')
+#14 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/cawater/web/cawater-info.net/public_html/billing/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/billing/index.php/indicator/update/ANONS
+HTTP_REFERER=http://cawater-info.net/billing/index.php/indicator/admin
+---
+2019/04/29 05:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/IndicatorController.php:157
+Stack trace:
+#0 /home/cawater/web/cawater-info.net/public_html/billing/protected/controllers/IndicatorController.php(113): IndicatorController->loadModel('0302')
+#1 [internal function]: IndicatorController->actionDelete('0302')
+#2 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(IndicatorController), Array)
+#3 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(IndicatorController), Object(ReflectionMethod), Array)
+#4 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(1119): CFilterChain->run()
+#7 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#16 /home/cawater/web/cawater-info.net/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('indicator/delet...')
+#17 /home/cawater/web/cawater-info.net/public_html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /home/cawater/web/cawater-info.net/public_html/billing/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/billing/index.php/indicator/delete/0302?ajax=indicator-grid
+HTTP_REFERER=http://cawater-info.net/billing/index.php/indicator/admin
+---
+2019/05/01 10:03:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\XAMPP_1\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\XAMPP_1\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\XAMPP_1\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(1435): CActiveRecord->getDbConnection()
+#6 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(1491): CActiveRecord->getTableAlias(true)
+#7 D:\XAMPP_1\htdocs\billing\protected\models\Order.php(46): CActiveRecord->findByPk('PRICE')
+#8 D:\XAMPP_1\htdocs\billing\protected\views\site\order.php(2): Order->populate()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\XAMPP_1\\htdo...')
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\XAMPP_1\\htdo...', Array, true)
+#11 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\XAMPP_1\\htdo...', Array, true)
+#12 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(41): CController->renderPartial('order', Array, true)
+#13 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#18 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#19 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/site/index
+---
+2019/05/01 10:08:24 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'billing.order' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `order`.
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (35)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:08:24 [error] [exception.CDbException] exception 'CDbException' with message 'Таблица "order", упомянутая в записи active record класса "Order", не найдена в базе данных.' in D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php:2389
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Order))
+#1 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(35): CActiveRecord->__construct()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/site/index
+---
+2019/05/01 10:09:11 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'billing.order' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `order`.
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (35)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:09:11 [error] [exception.CDbException] exception 'CDbException' with message 'Таблица "order", упомянутая в записи active record класса "Order", не найдена в базе данных.' in D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php:2389
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Order))
+#1 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(35): CActiveRecord->__construct()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/site/index
+---
+2019/05/01 10:10:30 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'billing.order' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `order`.
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (36)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:10:30 [error] [exception.CDbException] exception 'CDbException' with message 'Таблица "order", упомянутая в записи active record класса "Order", не найдена в базе данных.' in D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php:2389
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Order))
+#1 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(36): CActiveRecord->__construct()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/site/index
+---
+2019/05/01 10:10:37 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'billing.order' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `order`.
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (36)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:10:37 [error] [exception.CDbException] exception 'CDbException' with message 'Таблица "order", упомянутая в записи active record класса "Order", не найдена в базе данных.' in D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php:2389
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Order))
+#1 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php(36): CActiveRecord->__construct()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#9 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/billing/index.php/site/index
+HTTP_REFERER=http://localhost/billing/index.php/site/index
+---
+2019/05/01 10:24:46 [error] [php] Invalid argument supplied for foreach() (D:\XAMPP_1\htdocs\billing\protected\models\Order.php:67)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/site/index
+in D:\XAMPP_1\htdocs\billing\protected\models\Order.php (67)
+in D:\XAMPP_1\htdocs\billing\protected\models\Order.php (129)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\SiteController.php (39)
+2019/05/01 10:30:28 [error] [exception.CException] exception 'CException' with message 'В классе Order и его поведениях не найден метод или замыкание с именем "search".' in D:\XAMPP_1\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('search', Array)
+#1 D:\XAMPP_1\htdocs\billing\protected\views\order\admin.php(45): CActiveRecord->__call('search', Array)
+#2 D:\XAMPP_1\htdocs\billing\protected\views\order\admin.php(45): Order->search()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\XAMPP_1\\htdo...')
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\XAMPP_1\\htdo...', Array, true)
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\XAMPP_1\\htdo...', Array, true)
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#7 D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php(143): CController->render('admin', Array)
+#8 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): OrderController->actionAdmin()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 D:\XAMPP_1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('order/admin')
+#19 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/billing/index.php/order/admin
+---
+2019/05/01 10:53:25 [warning] [application] Не удалось присвоить небезопасный атрибут "status" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (101)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:54:05 [warning] [application] Не удалось присвоить небезопасный атрибут "status" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (101)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:54:11 [warning] [application] Не удалось присвоить небезопасный атрибут "status" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (101)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:00 [warning] [application] Не удалось присвоить небезопасный атрибут "id" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:00 [warning] [application] Не удалось присвоить небезопасный атрибут "total" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:00 [warning] [application] Не удалось присвоить небезопасный атрибут "createdAt" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:02 [warning] [application] Не удалось присвоить небезопасный атрибут "id" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:02 [warning] [application] Не удалось присвоить небезопасный атрибут "total" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:02 [warning] [application] Не удалось присвоить небезопасный атрибут "createdAt" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:05 [warning] [application] Не удалось присвоить небезопасный атрибут "id" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:05 [warning] [application] Не удалось присвоить небезопасный атрибут "total" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:05 [warning] [application] Не удалось присвоить небезопасный атрибут "createdAt" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:06 [warning] [application] Не удалось присвоить небезопасный атрибут "id" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:06 [warning] [application] Не удалось присвоить небезопасный атрибут "total" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:06 [warning] [application] Не удалось присвоить небезопасный атрибут "createdAt" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:08 [warning] [application] Не удалось присвоить небезопасный атрибут "id" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:08 [warning] [application] Не удалось присвоить небезопасный атрибут "total" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:56:08 [warning] [application] Не удалось присвоить небезопасный атрибут "createdAt" класса "Order".
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (144)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:58:46 [error] [php] Undefined variable: data (D:\XAMPP_1\htdocs\billing\protected\views\order\admin.php:15)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): OrderController->renderFile()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(785): OrderController->renderPartial()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php(148): OrderController->render()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): OrderController->actionAdmin()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(134): OrderController->runAction()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): OrderController->filterAccessControl()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): OrderController->runActionWithFilters()
+#12 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): OrderController->run()
+#13 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/order/admin?language=ru
+in D:\XAMPP_1\htdocs\billing\protected\views\order\admin.php (15)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (148)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 10:59:03 [error] [php] Undefined index:  (D:\XAMPP_1\htdocs\billing\protected\views\order\admin.php:15)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): OrderController->renderFile()
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(785): OrderController->renderPartial()
+#2 D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php(148): OrderController->render()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): OrderController->actionAdmin()
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(134): OrderController->runAction()
+#6 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\XAMPP_1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): OrderController->filterAccessControl()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): OrderController->runActionWithFilters()
+#12 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): OrderController->run()
+#13 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/order/admin?language=ru
+in D:\XAMPP_1\htdocs\billing\protected\views\order\admin.php (15)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (148)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 11:04:37 [error] [php] Undefined variable: currency (D:\XAMPP_1\htdocs\yii\framework\base\CComponent.php(612) : eval()'d code:1)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(231): CDataColumn->getDataCellContent()
+#1 D:\XAMPP_1\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(154): CDataColumn->renderDataCellContent()
+#2 D:\XAMPP_1\htdocs\yii\framework\zii\widgets\grid\CGridView.php(639): CDataColumn->renderDataCell()
+#3 D:\XAMPP_1\htdocs\yii\framework\zii\widgets\grid\CGridView.php(623): CGridView->renderDataCell()
+#4 D:\XAMPP_1\htdocs\yii\framework\zii\widgets\grid\CGridView.php(579): CGridView->renderTableRow()
+#5 D:\XAMPP_1\htdocs\yii\framework\zii\widgets\grid\CGridView.php(489): CGridView->renderTableBody()
+#6 D:\XAMPP_1\htdocs\yii\framework\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#7 unknown(0): CGridView->renderSection()
+#8 D:\XAMPP_1\htdocs\yii\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#9 D:\XAMPP_1\htdocs\yii\framework\zii\widgets\CBaseListView.php(149): CGridView->renderContent()
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(182): CGridView->run()
+#11 D:\XAMPP_1\htdocs\billing\protected\views\order\admin.php(29): OrderController->widget()
+#12 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(126): require()
+#13 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): OrderController->renderInternal()
+#14 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): OrderController->renderFile()
+#15 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(785): OrderController->renderPartial()
+#16 D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php(148): OrderController->render()
+#17 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): OrderController->actionAdmin()
+#18 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(134): OrderController->runAction()
+#20 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#22 D:\XAMPP_1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): OrderController->filterAccessControl()
+#23 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#24 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): OrderController->runActionWithFilters()
+#26 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): OrderController->run()
+#27 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#29 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/order/admin
+in D:\XAMPP_1\htdocs\billing\protected\views\order\admin.php (29)
+in D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php (148)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 11:07:25 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CActiveDataProvider.defaultOrder".' in D:\XAMPP_1\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CActiveDataProvider.php(96): CComponent->__set('defaultOrder', 'id ASC')
+#1 D:\XAMPP_1\htdocs\billing\protected\models\Order.php(174): CActiveDataProvider->__construct(Object(Order), Array)
+#2 D:\XAMPP_1\htdocs\billing\protected\views\order\admin.php(9): Order->search()
+#3 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\XAMPP_1\\htdo...')
+#4 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\XAMPP_1\\htdo...', Array, true)
+#5 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\XAMPP_1\\htdo...', Array, true)
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#7 D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php(148): CController->render('admin', Array)
+#8 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): OrderController->actionAdmin()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 D:\XAMPP_1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('order/admin')
+#19 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/billing/index.php/order/admin
+HTTP_REFERER=http://localhost/billing/index.php/order/update/2
+---
+2019/05/01 11:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "orderindex".' in D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('orderindex')
+#1 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/billing/index.php/orderindex
+---
+2019/05/01 12:05:57 [error] [php] Undefined variable: new_orders (D:\XAMPP_1\htdocs\billing\protected\components\Controller.php:30)
+Stack trace:
+#0 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#1 D:\XAMPP_1\htdocs\billing\index.php(13): CWebApplication->run()
+REQUEST_URI=/billing/index.php/order/admin
+in D:\XAMPP_1\htdocs\billing\protected\components\Controller.php (30)
+in D:\XAMPP_1\htdocs\billing\index.php (13)
+2019/05/01 12:08:38 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "OrderController.orderBadge".' in D:\XAMPP_1\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\XAMPP_1\htdocs\billing\protected\views\layouts\main.php(6): CComponent->__get('orderBadge')
+#1 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\XAMPP_1\\htdo...')
+#2 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\XAMPP_1\\htdo...', Array, true)
+#3 D:\XAMPP_1\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\\XAMPP_1\\htdo...', Array, true)
+#4 D:\XAMPP_1\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#5 D:\XAMPP_1\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#6 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 D:\XAMPP_1\htdocs\billing\protected\views\layouts\column2.php(9): CBaseController->endContent()
+#9 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(126): require('D:\\XAMPP_1\\htdo...')
+#10 D:\XAMPP_1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\XAMPP_1\\htdo...', Array, true)
+#11 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('D:\\XAMPP_1\\htdo...', Array, true)
+#12 D:\XAMPP_1\htdocs\billing\protected\controllers\OrderController.php(148): CController->render('admin', Array)
+#13 D:\XAMPP_1\htdocs\yii\framework\web\actions\CInlineAction.php(49): OrderController->actionAdmin()
+#14 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#18 D:\XAMPP_1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 D:\XAMPP_1\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 D:\XAMPP_1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#23 D:\XAMPP_1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('order/admin')
+#24 D:\XAMPP_1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 D:\XAMPP_1\htdocs\billing\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/billing/index.php/order/admin
+HTTP_REFERER=http://localhost/billing/index.php/settings/admin
+---
